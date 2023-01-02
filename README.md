@@ -106,3 +106,8 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+Jillians readMe
+
+To get help with hero imaging width sizing, went to https://www.w3schools.com/howto/howto_css_hero_image.asp
+

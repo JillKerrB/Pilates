@@ -1,0 +1,11 @@
+/**Hero image sizing**/
+#hero-image {
+    background: url("../images/hero-image.jpg") no-repeat;
+    height:500px;
+    /** hero image sizing taken from https://www.w3schools.com/howto/howto_css_hero_image.asp **/
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    opacity: 1.5;
+    background-color: bisque;
+}
