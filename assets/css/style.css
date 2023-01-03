@@ -1,21 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/*Default padding, margin and border to zero*/
+*{
+    margin:0;
+    padding:0;
+    border:none
+}
 
+/*Body styling*/
+body {
+    font-family: "playfair display", serif;
+    color: darkslategray;
+    font-weight: 200;
+    
+}
 /*Logo styling*/
 #logo {
     font-family: "playfair display", serif;
     letter-spacing: 4px;
     color:darkslategray;
     font-weight: 300;
+    display:inline-block;
+  vertical-align:middle;
+  float:left;
+  margin-top: 10px;
+  margin-left:10px;
+
 }
-a{
+header a {
     text-decoration: none;
 }
-/**Hero image sizing**/
+
+#nav-menu li {
+    float:right;
+    list-style-type: none;
+    margin-right:10px;
+    margin-top:10px;
+    display:inline-block;
+  vertical-align:middle;
+}
+
+#nav-menu a{
+    text-decoration: none;
+    color:darkslategray
+}
+
+/*Hero image styling
 #hero-image {
     background: url("../images/hero-image.jpg") no-repeat;
     height:500px;
-    /** hero image sizing taken from https://www.w3schools.com/howto/howto_css_hero_image.asp **/
     background-size: cover;
     background-position: center;
     position:relative;
