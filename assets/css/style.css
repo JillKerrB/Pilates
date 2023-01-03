@@ -10,7 +10,7 @@
 /*Body styling*/
 body {
     font-family: "playfair display", serif;
-    color: darkslategray;
+    color: whitesmoke;
     font-weight: 200;
     
 }
@@ -18,13 +18,14 @@ body {
 #logo {
     font-family: "playfair display", serif;
     letter-spacing: 4px;
-    color:darkslategray;
+    color: whitesmoke;
     font-weight: 300;
     display:inline-block;
   vertical-align:middle;
   float:left;
   margin-top: 10px;
   margin-left:10px;
+  font-size: 250%;
 
 }
 header a {
@@ -37,21 +38,26 @@ header a {
     margin-right:10px;
     margin-top:10px;
     display:inline-block;
-  vertical-align:middle;
+  vertical-align:middle; 
+  font-size: 110%;
+  font-weight: 600;
+  
+
+
 }
 
 #nav-menu a{
     text-decoration: none;
-    color:darkslategray
+    color: white;
+    
 }
 
-/*Hero image styling
+/*Hero image styling*/
 #hero-image {
     background: url("../images/hero-image.jpg") no-repeat;
     height:500px;
     background-size: cover;
     background-position: center;
-    position:relative;
-    opacity: 1.5;
-    background-color: bisque;
+    background-color: darkslategrey
+    display:block;
 }
