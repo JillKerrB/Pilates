@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+/*Logo styling*/
+#logo {
+    font-family: "playfair display", serif;
+    letter-spacing: 4px;
+    color:darkslategray;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+}
 /**Hero image sizing**/
 #hero-image {
     background: url("../images/hero-image.jpg") no-repeat;
