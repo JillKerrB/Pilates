@@ -1,63 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-/*Default padding, margin and border to zero*/
-*{
-    margin:0;
-    padding:0;
-    border:none
-}
 
 /*Body styling*/
 body {
     font-family: "playfair display", serif;
     color: whitesmoke;
     font-weight: 200;
+    background-color: rgb(37, 38, 38); 
+}
+
+header h1 {
+    color:whitesmoke;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 250%;
+    font-family: "playfair display", serif;
     
 }
-/*Logo styling*/
-#logo {
-    font-family: "playfair display", serif;
-    letter-spacing: 4px;
-    color: whitesmoke;
-    font-weight: 300;
-    display:inline-block;
-  vertical-align:middle;
-  float:left;
-  margin-top: 10px;
-  margin-left:10px;
-  font-size: 250%;
 
+
+#logo, #nav-menu {
+    display: inline-block;
 }
-header a {
+
+
+header ul {
+    display:inline-block;
+    float:right;
+    vertical-align:middle; 
+}
+a {
     text-decoration: none;
 }
+
 
 #nav-menu li {
     float:right;
     list-style-type: none;
-    margin-right:10px;
-    margin-top:10px;
-    display:inline-block;
-  vertical-align:middle; 
-  font-size: 110%;
-  font-weight: 600;
-  
-
-
+    vertical-align:middle;
+    font-size: 110%;
+    font-weight: 600;
+color:whitesmoke; 
 }
-
-#nav-menu a{
-    text-decoration: none;
-    color: white;
-    
-}
-
 /*Hero image styling*/
 #hero-image {
-    background: url("../images/hero-image.jpg") no-repeat;
+    background: url("../images/hero-image.jpg") no-repeat center center;
     height:500px;
+    width:100%;
     background-size: cover;
-    background-position: center;
-    background-color: darkslategrey
-    display:block;
+
 }
+
+
+
+
+
+
+
+
+
+
