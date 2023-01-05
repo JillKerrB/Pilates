@@ -79,6 +79,15 @@ color:whitesmoke;
     background-color: rgb(37, 38, 38); 
     }
 
+    #footer li {
+        
+            display: table;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+    
+    }
+
     table {
         
         width:100%;
