@@ -22,13 +22,14 @@ body {
         width:100%;
         background-color: rgb(37, 38, 38); 
         line-height:75px;
-        font-family: "playfair display", serif;
+        
     }
 
 .logo {
     color:whitesmoke;
     letter-spacing: 4px;
     font-weight: 300;
+    font-family: "playfair display", serif;
     
     
 }
@@ -79,8 +80,11 @@ color:whitesmoke;
     }
 
     table {
+        
         width:100%;
-        margin 20px;
+        margin-left:auto;
+        margin-right:auto;
+        background-color: gray;
     }
 
         /*table border code from W3Schools - https://www.w3schools.com/html/html_table_borders.asp*/
@@ -88,6 +92,8 @@ color:whitesmoke;
     table, th, td {
         border: 1px solid whitesmoke;
       }
+    
+     
       
 
 
