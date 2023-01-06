@@ -5,7 +5,6 @@
 body {
     font-family: "playfair display", serif;
     color: whitesmoke;
-    font-weight: 200;
     background-color: rgb(37, 38, 38); 
 }
 .wrapper1 {
@@ -15,32 +14,27 @@ body {
 
 .logo-nav-container {
     display:flex;
-    }
-
-    .logo, .nav-menu {
-        height: 75px;px;
-        width:100%;
-        background-color: rgb(37, 38, 38); 
+    background-color: rgb(37, 38, 38); 
         line-height:75px;
-        
+        width:100%;
+       
     }
-
 .logo {
+    width:50%
     color:whitesmoke;
     letter-spacing: 4px;
     font-weight: 300;
-    font-family: "playfair display", serif;
-    
-    
+    font-family: "playfair display", serif;    
 }
 
-
 .nav-menu {
+    width:50%
     color:whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
 
 }
+
 
 a {
     text-decoration: none;
@@ -49,11 +43,13 @@ a {
 
 
 .nav-menu li {
-    float:right;
     list-style-type: none;
     font-size: 110%;
     font-weight: 600;
 color:whitesmoke; 
+padding-left: 5px;
+padding-right:5px;
+
 }
 /*Hero image styling*/
 #hero-image {
