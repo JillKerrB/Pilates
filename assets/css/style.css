@@ -10,28 +10,32 @@ body {
 .wrapper1 {
     width:100%;
     margin:0, auto;
+    background-color: green;
 }
 
 .logo-nav-container {
     display:flex;
-    background-color: rgb(37, 38, 38); 
+    background-color: red
         line-height:75px;
         width:100%;
+    
        
     }
 .logo {
-    width:50%
     color:whitesmoke;
     letter-spacing: 4px;
     font-weight: 300;
-    font-family: "playfair display", serif;    
+    font-family: "playfair display", serif;   
+    background-color:yellow; 
+    width: 500px;
 }
 
 .nav-menu {
-    width:50%
     color:whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    background-color:blue;
+    width:500px;
 
 }
 
@@ -50,6 +54,10 @@ color:whitesmoke;
 padding-left: 5px;
 padding-right:5px;
 
+}
+
+#welcome {
+    float:right;
 }
 /*Hero image styling*/
 #hero-image {
