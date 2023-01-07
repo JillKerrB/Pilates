@@ -12,7 +12,7 @@ body {
 
 .logo-nav-container {
     display:flex;
-    background-color: red
+    background-color: red;
     width:100%;
         
        
@@ -23,7 +23,6 @@ body {
     letter-spacing: 4px;
     font-weight: 300;
     font-family: "playfair display", serif;   
-    background-color:yellow; 
     width: 50%;
     
 }
@@ -32,7 +31,6 @@ body {
     color:whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
-    background-color:blue;
     display:inline-flex;
     justify-content: right;
     width: 50%;
@@ -71,11 +69,7 @@ h2 {
     width:100%;
     background-size: cover;
 }
-.wrapper2 {
-    width:100%;
-    margin:0, auto;
-    background-color: green;
-}
+
 .about-benefits-container {
     display:flex;
     background-color: blueviolet;
@@ -108,14 +102,61 @@ padding-right:5px;
 
     justify-content: right;
 }
+
+#footer ul {
+    margin:0;
+        border:0;
+        padding:0;
+}
     #footer li {
         
-            display: table;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-    
-    }
+        display: table;
+        
+             }
+
+    .footer-container {
+        display:flex;
+        width:100%;}
+
+        .facebook {
+            display:inline-flex;
+            color:whitesmoke;
+            letter-spacing: 4px;
+            font-weight: 300;
+            font-family: "playfair display", serif;   
+            width: 25%;
+            justify-content:center;
+        }
+
+        .insta {
+            display:inline-flex;
+            color:whitesmoke;
+            letter-spacing: 4px;
+            font-weight: 300;
+            font-family: "playfair display", serif;  
+            width: 25%;
+            justify-content:center;
+        }    
+
+        .twitter {
+            display:inline-flex;
+            color:whitesmoke;
+            letter-spacing: 4px;
+            font-weight: 300;
+            font-family: "playfair display", serif;   
+            width:25%;
+            justify-content:center;
+        }      
+        .youtube {
+            display:inline-flex;
+            color:whitesmoke;
+            letter-spacing: 4px;
+            font-weight: 300;
+            font-family: "playfair display", serif;   
+            width:25%;
+            justify-content:center;
+        }     
+            
 
     table {
         
