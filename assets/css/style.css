@@ -7,6 +7,9 @@ body {
     color: whitesmoke;
     background-color: rgb(37, 38, 38); 
     min-height: 100vh;
+    border:0;
+    margin:0;
+    padding:0;
    
 }
 
@@ -136,6 +139,16 @@ padding-right:5px;
    
 
 }
+
+.form {
+    display:flex;
+    justify-content: center;
+    mad-width:100%;
+}
+.form textarea {
+    max-width: 80%;
+}
+
 
 #footer ul {
     margin:0;
