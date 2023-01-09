@@ -42,8 +42,9 @@ body {
 
 a {
     text-decoration: none;
-    color:whitesmoke;
-}
+    color:whitesmoke;}
+
+    
 
 
 .nav-menu li {
@@ -75,20 +76,21 @@ h2 {
     display:flex;
     background-color: blueviolet;
         width:100%;
+        height:auto;
     }
     
     .about {
         background-color: blue;
-        height: 250px;
-    width:50vw;
+        height: auto;
+    width:45vw;
     border:10px;
     margin:10px;
     padding:10px;
     }
 .benefits {
     background-color: red;
-    height: 250px;
-    width:50vw;
+    height: auto;
+    width:45vw;
     border:10px;
     margin:10px;
     padding:10px;
@@ -102,6 +104,27 @@ padding-left: 5px;
 padding-right:5px;
 
     justify-content: right;
+}
+
+@media screen and (max-width:1000px) {
+   .about-benefits-container {
+        display: flex;
+        flex-direction: column;
+  background-color: green;
+  vh:100;
+  width:100%;
+  padding:0;
+    }
+    .about {
+        width:100%
+    
+    }
+    .benefits {
+        width:100%
+    
+    }
+   
+
 }
 
 #footer ul {
