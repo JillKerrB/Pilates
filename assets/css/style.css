@@ -87,6 +87,14 @@ h2 {
     background-size: cover;
 }
 
+#hero-image p {
+    letter-spacing: 1px;
+    font-size: 200%;
+    padding-top: 80px;
+    padding-left:140px;
+    
+}
+
 .about-benefits-container {
     display: flex;
     background-color: blueviolet;
