@@ -61,6 +61,12 @@ a:hover {
     background-color: aqua;
 }
 
+/*active link code taken from love running project*/
+
+.active-link {
+    border-bottom: 1px solid whitesmoke;
+}
+
 
 
 
