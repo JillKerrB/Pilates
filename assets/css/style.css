@@ -124,7 +124,6 @@ padding-right:5px;
         display: flex;
         flex-direction: column;
   background-color: green;
-  vh:100;
   width:100%;
   padding:0;
     }
@@ -143,7 +142,7 @@ padding-right:5px;
 .form {
     display:flex;
     justify-content: center;
-    mad-width:100%;
+    max-width:100%;
 }
 .form textarea {
     max-width: 80%;
