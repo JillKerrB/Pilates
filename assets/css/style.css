@@ -5,7 +5,7 @@
 body {
     font-family: "playfair display", serif;
     color: whitesmoke;
-    background-color: rgb(37, 38, 38);
+    background-color: rgb(55, 56, 56);
     min-height: 100vh;
     border: 0;
     margin: 0;
@@ -15,12 +15,13 @@ body {
 
 h1 {
     padding-left: 20px;
+    margin-bottom: 0;
+
 }
 
 
 .logo-nav-container {
     display: flex;
-    background-color: red;
     width: 100%;
     flex-grow: 1;
 
@@ -107,29 +108,19 @@ h2 {
 
 .about-benefits-container {
     display: flex;
-    background-color: blueviolet;
-    width: 100%;
+    width: 95%;
+    justify-content: center;
 }
 
-.about {
-    background-color: blue;
-    width: 46vw;
+.about .benefits {
+
     border: 10px;
-    margin: 10px;
-    padding: 10px;
-
-
+    padding-left:40px;
+    width:100%;
+        margin: 20rem auto;
+        flex-shrink: 2;
 }
 
-.benefits {
-    background-color: red;
-    width: 46vw;
-    border: 10px;
-    margin: 10px;
-    padding: 10px;
-
-
-}
 
 .benefits li {
     display: list-item;
