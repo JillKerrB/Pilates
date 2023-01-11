@@ -19,6 +19,14 @@ h1 {
 
 }
 
+h3 {
+    text-decoration: underline;
+}
+
+.benefits h3 {
+    padding-left:40px;
+}
+
 
 .logo-nav-container {
     display: flex;
@@ -35,6 +43,7 @@ h1 {
     font-weight: 300;
     font-family: "playfair display", serif;
     flex-grow: 1;
+    text-transform: uppercase;
 
 }
 
@@ -88,6 +97,8 @@ a:hover {
 h2 {
     font-weight: 300;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /*Hero image styling*/
@@ -119,6 +130,13 @@ h2 {
     width:100%;
         margin: 20rem auto;
         flex-shrink: 2;
+        background-color: rgb(224, 63, 63);
+}
+
+
+.benefits p {
+    margin-left:40px;
+    text-decoration: underline;
 }
 
 
