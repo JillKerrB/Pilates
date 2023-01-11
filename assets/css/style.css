@@ -1,282 +1,250 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 /*Body styling*/
 body {
-    font-family: "playfair display", serif;
-    color: whitesmoke;
-    background-color: rgb(55, 56, 56);
-    min-height: 100vh;
-    border-bottom: 50px;
-    margin: 0;
-    padding: 0;
-
+  font-family: "playfair display", serif;
+  color: whitesmoke;
+  background-color: rgb(55, 56, 56);
+  min-height: 100vh;
+  border-bottom: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    padding-left: 20px;
-    margin-bottom: 0;
-
+  padding-left: 20px;
+  margin-bottom: 0;
 }
 
 h3 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .benefits h3 {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
-
 .logo-nav-container {
-    display: flex;
-    width: 100%;
-    flex-grow: 1;
-
-
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .logo {
-    display: inline-flex;
-    color: whitesmoke;
-    letter-spacing: 4px;
-    font-weight: 200;
-    font-family: "playfair display", serif;
-    flex-grow: 1;
-    text-transform: uppercase;
-
+  display: inline-flex;
+  color: whitesmoke;
+  letter-spacing: 4px;
+  font-weight: 200;
+  font-family: "playfair display", serif;
+  flex-grow: 1;
+  text-transform: uppercase;
 }
 
 .nav-menu {
-    color: whitesmoke;
-    letter-spacing: 1px;
-    font-weight: 300;
-    display: inline-flex;
-    justify-content: right;
-
-
-
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-weight: 300;
+  display: inline-flex;
+  justify-content: right;
 }
 
-
-
 a {
-
-    text-decoration: none;
-    color: whitesmoke;
-
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 a:hover {
-    background-color: rgb(169, 96, 7);
+  background-color: rgb(169, 96, 7);
 }
 
 /*active link code taken from love running project*/
 
 .active-link {
-    border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
 }
 
-
-
-
-
 .nav-menu li {
-    list-style-type: none;
-    font-size: 110%;
-    font-weight: 600;
-    color: whitesmoke;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-flex;
-    justify-content: right;
-
-
+  list-style-type: none;
+  font-size: 110%;
+  font-weight: 600;
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-flex;
+  justify-content: right;
 }
 
 h2 {
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /*Hero image styling*/
 #hero-image {
-    background: url("../images/hero-image.jpg") no-repeat center center;
-    height: 450px;
-    width: 100%;
-    background-size: cover;
-    opacity: .9;
-
+  background: url("../images/hero-image.jpg") no-repeat center center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.9;
 }
 
 #hero-image p {
-    letter-spacing: 1px;
-    padding-top: 100px;
-    padding-left: 140px;
-    font-size: 180%;
-
-
-
-
+  letter-spacing: 1px;
+  padding-top: 100px;
+  padding-left: 140px;
+  font-size: 180%;
 }
 
 .about-benefits-container {
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    padding-bottom: 50px;
-
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .about .benefits {
-
-    border: 20rem;
-    padding-left: 50px;
-    width: 100%;
-    margin: 20rem auto;
-    flex-shrink: 2;
+  border: 20rem;
+  padding-left: 50px;
+  width: 100%;
+  margin: 20rem auto;
+  flex-shrink: 2;
 }
 
 .benefits h3 {
-    margin-left: 40px;
-    text-decoration: underline;
+  margin-left: 40px;
+  text-decoration: underline;
 }
 
 .benefits p {
-    margin-left: 40px;
-    text-decoration: underline;
+  margin-left: 40px;
+  text-decoration: underline;
 }
 
 .benefits ul {
-    padding-inline-start: 5rem;
+  padding-inline-start: 5rem;
 }
-
 
 .benefits li {
-    display: list-item;
-    list-style-type: none;
-    color: whitesmoke;
-    padding-left: 5px;
-    padding-right: 5px;
+  display: list-item;
+  list-style-type: none;
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
 
-    justify-content: right;
+  justify-content: right;
 }
 
-@media screen and (max-width:1000px) {
-    .about-benefits-container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-    }
+@media screen and (max-width: 1000px) {
+  .about-benefits-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
 
-    .about,
-    .benefits {
-        width: 88%;
-        margin: 1rem auto;
-    }
+  .about,
+  .benefits {
+    width: 88%;
+    margin: 1rem auto;
+  }
 
+  #hero-image p {
+    padding-top: 50px;
+    padding-left: 10px;
+  }
 
+  form {
+    padding-left: 70px;
+  }
 
-    #hero-image p {
-        padding-top: 50px;
-        padding-left: 10px;
-    }
+  .logo {
+    font-size: 3vw;
+  }
 
-    form {
-        padding-left: 70px;
-    }
+  .nav-menu {
+    font-size: 2vw;
+  }
 
-    .logo {
-
-        font-size: 3vw;
-    }
-
-    .nav-menu {
-
-        font-size: 2vw;
-    }
-
-    .benefits ul {
-        padding-inline-start: 0;
-    }
-
+  .benefits ul {
+    padding-inline-start: 0;
+  }
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-    padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding-bottom: 70px;
 }
 
 .form textarea {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 /*code to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 #footer {
-    background: black;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
+  background: black;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 #footer ul {
-    margin: 0;
-    border: 0;
-    padding: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 #footer li {
-    margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .footer-container {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .footer-container ul {
-    display: flex;
-    width: 100%;
-    list-style: none;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
 }
 
 .facebook,
 .insta,
 .twitter,
 .youtube {
-    color: whitesmoke;
-    letter-spacing: 4px;
-    font-weight: 300;
-    font-family: "playfair display", serif;
-
+  color: whitesmoke;
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-family: "playfair display", serif;
 }
 
-
-
 table {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
 
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: gray;
+#more-info p {
+    text-align: center;
+    background-color: rgb(169, 96, 7);
 }
 
 @media only screen and (max-width: 560px) {
-    #table {
-        width: 90%;
-        overflow-x: auto;
-        margin: 1rem auto;
-    }
+  #table {
+    width: 90%;
+    overflow-x: auto;
+    margin: 1rem auto;
+  }
 }
 
 /*table border code from W3Schools - https://www.w3schools.com/html/html_table_borders.asp*/
@@ -284,5 +252,5 @@ table {
 table,
 th,
 td {
-    border: 1px solid whitesmoke;
+  border: 1px solid whitesmoke;
 }
