@@ -5,6 +5,8 @@ Welcome to the website for [Janes Pilates Studio](https://jillkerrb.github.io/Pi
 
 <p>The benefit to the external user is to find a Pilates studio where they can view a list of classes and times, and contact the studio if they require information on a private class.</p>
 
+<img scr="../images/devices-screenshot.jpg">
+
 ## Features
 
 ### Featured on all 3 pages - Home, Timetable and Contact
@@ -52,10 +54,15 @@ As a future enhancement, i would like to introduce the ability for sudents to lo
 
 ## Testing
 
+* Header
+The header was split into sections using flexbox. I tried to acheieve the same result using the float attribute, but i had issues with the horizonal alignment of the navigation menu links. 
 
-All code was formatted with Prettier
+All code was formatted with Prettier to remove spaces and format code
 All code passed without errors in W3 Validator and Jigsaw
-Used lighthouse in Developer tools to check accessibility and best practice and got a score of 100% for both.
+Used lighthouse in Developer tools to check accessibility and best practice and got a score of 100% for both accessibility and best practive. 
+
+Responsiveness was tested using developer tools and selecting replicating different devices such as mobile devices and tablets.
+one problem i could not overcome in my project was the ability to adjust the transparancy of the hero image using the opacity attribute without adjusting the transparancy of the text on top of the hero image. I would like to have only adjusted the hero imaage so as to have more contract between the background impact and the text. 
 
 
 
