@@ -153,6 +153,7 @@ h2 {
   #hero-image p {
     padding-top: 50px;
     padding-left: 10px;
+    font-size: 2vh;
   }
 
   form {

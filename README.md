@@ -1,4 +1,5 @@
 # Janes Pilates Studio
+Welcome to the website for [Janes Pilates Studio](https://jillkerrb.github.io/Pilates/)
 <p>In this website, i decided to bring my own idea to life. This website a real need as my friend Jane is a qualified nurse who is changing career, and needs a website to attract and engage potential studenets. </p>
 <p>The benefit of this website to the site owner is to attract new, intermediate and advanced Pilates students to attend Pilates clases at Janes Pilates studio. </p>
 
