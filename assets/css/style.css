@@ -24,7 +24,7 @@ h3 {
 }
 
 .benefits h3 {
-    padding-left:40px;
+    padding-left: 40px;
 }
 
 
@@ -114,12 +114,12 @@ h2 {
 #hero-image p {
     letter-spacing: 1px;
     padding-top: 100px;
-    padding-left:140px;
+    padding-left: 140px;
     font-size: 180%;
-    
 
-    
-    
+
+
+
 }
 
 .about-benefits-container {
@@ -133,19 +133,19 @@ h2 {
 .about .benefits {
 
     border: 20rem;
-    padding-left:50px;
-    width:100%;
-        margin: 20rem auto;
-        flex-shrink: 2;
+    padding-left: 50px;
+    width: 100%;
+    margin: 20rem auto;
+    flex-shrink: 2;
 }
 
 .benefits h3 {
-    margin-left:40px;
+    margin-left: 40px;
     text-decoration: underline;
 }
 
 .benefits p {
-    margin-left:40px;
+    margin-left: 40px;
     text-decoration: underline;
 }
 
@@ -172,37 +172,38 @@ h2 {
         padding: 0;
     }
 
-    .about, .benefits {
-        width:88%;
+    .about,
+    .benefits {
+        width: 88%;
         margin: 1rem auto;
     }
 
-    
-   
+
+
     #hero-image p {
         padding-top: 50px;
-    padding-left: 10px;
+        padding-left: 10px;
     }
+
     form {
-        padding-left: 70px; 
+        padding-left: 70px;
     }
+
     .logo {
-   
+
         font-size: 3vw;
-       }
-    
+    }
+
     .nav-menu {
-    
-        font-size:2vw;
+
+        font-size: 2vw;
     }
 
     .benefits ul {
         padding-inline-start: 0;
     }
-   
 
 }
-
 
 .form {
     display: flex;
@@ -214,8 +215,9 @@ h2 {
 .form textarea {
     max-width: 80%;
 }
+
 /*code to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
-#footer{
+#footer {
     background: black;
     padding: 20px;
     position: fixed;
@@ -225,6 +227,7 @@ h2 {
     color: white;
     text-align: center;
 }
+
 #footer ul {
     margin: 0;
     border: 0;
@@ -232,8 +235,9 @@ h2 {
 }
 
 #footer li {
-   margin: 0 2rem;
+    margin: 0 2rem;
 }
+
 .footer-container {
     display: flex;
     width: 100%;
@@ -246,7 +250,10 @@ h2 {
     justify-content: center;
 }
 
-.facebook, .insta, .twitter, .youtube {
+.facebook,
+.insta,
+.twitter,
+.youtube {
     color: whitesmoke;
     letter-spacing: 4px;
     font-weight: 300;
@@ -263,10 +270,11 @@ table {
     margin-right: auto;
     background-color: gray;
 }
+
 @media only screen and (max-width: 560px) {
     #table {
-        width:90%;
-        overflow-x:auto;
+        width: 90%;
+        overflow-x: auto;
         margin: 1rem auto;
     }
 }
