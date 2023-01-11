@@ -42,6 +42,7 @@ h3 {
     letter-spacing: 4px;
     font-weight: 200;
     font-family: "playfair display", serif;
+    font-size: 3vw;
     flex-grow: 1;
     text-transform: uppercase;
 
@@ -51,6 +52,7 @@ h3 {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
+    font-size:2vw;
     display: inline-flex;
     justify-content: right;
 
@@ -107,13 +109,13 @@ h2 {
     height: 450px;
     width: 100%;
     background-size: cover;
-    opacity: .8;
+    opacity: .9;
 
 }
 
 #hero-image p {
     letter-spacing: 1px;
-    font-size: 200%;
+    font-size: 5vw;
     padding-top: 80px;
     padding-left:140px;
 
@@ -167,6 +169,13 @@ h2 {
     .about, .benefits {
         width:88%;
         margin: 1rem auto;
+    }
+    #hero-image p {
+        padding-top: 50px;
+    padding-left: 10px;
+    }
+    form {
+        padding-left: 70px; 
     }
 
 
