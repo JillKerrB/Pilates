@@ -6,7 +6,7 @@ body {
     font-family: "playfair display", serif;
     color: whitesmoke;
     background-color: rgb(55, 56, 56);
-    min-height: 100vh;
+    height: 100vh;
     border: 0;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ h3 {
     display: inline-flex;
     color: whitesmoke;
     letter-spacing: 4px;
-    font-weight: 300;
+    font-weight: 200;
     font-family: "playfair display", serif;
     flex-grow: 1;
     text-transform: uppercase;
@@ -177,10 +177,16 @@ h2 {
 .form textarea {
     max-width: 80%;
 }
-
+/*code to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 #footer{
     background: black;
     padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 #footer ul {
     margin: 0;
