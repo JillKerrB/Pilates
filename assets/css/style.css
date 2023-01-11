@@ -42,7 +42,6 @@ h3 {
     letter-spacing: 4px;
     font-weight: 200;
     font-family: "playfair display", serif;
-    font-size: 3vw;
     flex-grow: 1;
     text-transform: uppercase;
 
@@ -52,7 +51,6 @@ h3 {
     color: whitesmoke;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size:2vw;
     display: inline-flex;
     justify-content: right;
 
@@ -115,9 +113,9 @@ h2 {
 
 #hero-image p {
     letter-spacing: 1px;
-    font-size: 5vw;
     padding-top: 80px;
     padding-left:140px;
+    font-size: 180%;
 
     
     
@@ -146,6 +144,10 @@ h2 {
     text-decoration: underline;
 }
 
+.benefits ul {
+    padding-inline-start: 0;
+}
+
 
 .benefits li {
     display: list-item;
@@ -161,7 +163,6 @@ h2 {
     .about-benefits-container {
         display: flex;
         flex-direction: column;
-        background-color: green;
         width: 100%;
         padding: 0;
     }
@@ -170,12 +171,28 @@ h2 {
         width:88%;
         margin: 1rem auto;
     }
+
+    
+   
     #hero-image p {
         padding-top: 50px;
     padding-left: 10px;
     }
     form {
         padding-left: 70px; 
+    }
+    .logo {
+   
+        font-size: 3vw;
+       }
+    
+    .nav-menu {
+    
+        font-size:2vw;
+    }
+    
+    #hero-image p {
+        font-size: 5vw;
     }
 
 
