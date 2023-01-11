@@ -132,13 +132,17 @@ h2 {
 
 .about .benefits {
 
-    border: 10px;
-    padding-left:40px;
+    border: 20rem;
+    padding-left:50px;
     width:100%;
         margin: 20rem auto;
         flex-shrink: 2;
 }
 
+.benefits h3 {
+    margin-left:40px;
+    text-decoration: underline;
+}
 
 .benefits p {
     margin-left:40px;
@@ -146,7 +150,7 @@ h2 {
 }
 
 .benefits ul {
-    padding-inline-start: 0;
+    padding-inline-start: 5rem;
 }
 
 
@@ -191,11 +195,11 @@ h2 {
     
         font-size:2vw;
     }
-    
-    #hero-image p {
-        font-size: 5vw;
-    }
 
+    .benefits ul {
+        padding-inline-start: 0;
+    }
+   
 
 }
 
