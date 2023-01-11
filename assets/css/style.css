@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-    background-color: aqua;
+    background-color: rgb(169, 96, 7);
 }
 
 /*active link code taken from love running project*/
