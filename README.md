@@ -94,7 +94,8 @@ The header was created as the flex container "logo-nav-container", and then spli
 
 - HTML Code
 
-  <!-- <header>
+  ```
+  <header>
       <div class="logo-nav-container">
         <div class="logo">
           <a href="index.html">
@@ -112,38 +113,125 @@ The header was created as the flex container "logo-nav-container", and then spli
           </nav>
         </div>
       </div>
-    </header>-->
+    </header>
+    ```
 
 - CSS Code
 
 The container was set as flex to enable elements to sit side by side.
 
-<!--.logo-nav-container {
+```
+.logo-nav-container {
   display: flex;
   width: 100%;
-}-->
+```
 
 - Responsive design
 
 The header logo and navigation links are reponsive as the font size scales down on mobile devices:
 
- <!--.logo {
+ ```
+ .logo {
     font-size: 3vw;
   }
 
   .nav-menu {
     font-size: 2vw;
-  }-->
+  }
+  ```
 
+* Footer
+
+The footer provides a semantic element to help screenreaders identify the section as a footer. 
+The footer elements are list items that contain links to social media accounts. 
+The links open in a new tab by using the _blank attribute.
+The noopener attribute stops the external site from having access to Janes Pilates Studio site and therefore enhances security. 
+The aria-label enhancenses the exterience for users using screen readers. 
+The div class "footer-container" was created in order to style the footer in CSS.
+The code for this was taken from the Love Running project, but was adapted slightly to fit with my project. 
+
+- HTML code
+
+```
+<footer id="footer">
+      <div class="footer-container">
+        <ul>
+          <li class="facebook">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+
+          <li class="insta">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+
+          <li class="twitter">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+
+          <li class="youtube">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+```
+
+- CSS code
+
+Set position and colours with the #footer and removed additional space at the side of the footer by setting marfin, border and padding for the footers unorder list items. 
+
+```
+#footer {
+  background: black;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#footer ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+```
 
 
 * Hero image and text
 
 The hero image was added using a div with an id called "hero-image" in the HTML which was linked to the image destination in the CSS. Text was added on top of the hero image to help users identify what the site is about.
 
-HTML code 
+- HTML code 
 
-<!--<div id="hero-image">
+```
+<div id="hero-image">
       <p>
         An instructor led pilates studio<br>
         in the heart of Mayo. <br>
@@ -151,29 +239,121 @@ HTML code
         View our timetable to find a class<br>
         or contact us to schedule a private class.
       </p>
-    </div>-->
-
-    CSS code:
+    </div>
+  ```
+  - CSS code:
 
 The no repeat ensured that the image deos  not repeat if the screen size is larger than the image. The width and height of the image is set and centered on the page. The opacity is set to make the image and text contrast slightly better.
 
-<!--#hero-image {
+```
+#hero-image {
   background: url("../images/hero-image.jpg") no-repeat center center;
   height: 450px;
   width: 100%;
   background-size: cover;
   opacity: 0.9;
-}-->
+```
 
-Responsive design: 
+- Responsive design: 
 
 The text on the image is coded to resize on a smaller device and padding is set.
 
- <!--#hero-image p {
+ ```
+ #hero-image p {
     padding-top: 50px;
     padding-left: 10px;
     font-size: 2vh;
-  }-->
+  ```
+
+  *About section and Benefits section
+
+- HTML code
+
+Two sections are added for semantics, to inform the users that there are 2 related sections.
+An flex container called "about-benefits-container" is used to contain the 2 sections. Within this container are two flexboxes created with classes. Class "about" contains a heading and 2 paragraphs. Class "benefits"contains a heading and several list items in an unordered list. 
+
+```
+   <div class="about-benefits-container">
+      <section>
+        <div class="about">
+          <h3>About Janes Pilates Studio:</h3>
+          <p>
+            Jane has been teaching Pilates for over 5 years.<br>
+            As a former nurse, she is focused on using <br>
+            pilates as a means to help recover from injury,<br>
+            and to mentain physical and mental health.
+          </p>
+          <p>
+            Our studio caters for all experience levels,<br>
+            from beginners, intermediate to advanced.<br>
+            We hold classes daily, as well as<br>
+            private individual or group bookings.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="benefits">
+          <h3>Pilates has several benefits:</h3>
+          <ul>
+            <li>Relieving back pain</li>
+            <li>Relieving tension in your shoulders, back and legs</li>
+            <li>Prevents injury to muscles</li>
+            <li>Boosts your body's natural ability to burn fat</li>
+            <li>Promotes mobility for young and old</li>
+            <li>Improves core strength</li>
+            <li>Promotes mindfullness</li>
+            <li>Helps to relieve stress and anxiety</li>
+            <li>A great way to meet new people</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    ```
+    - CSS code
+
+    First the container is styled in ",about-benefits-container" as flex to allow the sections to stack horizontally. The container is also positioned and width added. 
+    Then styles that are common to both the about section and the benefits section are added to ",about .benefits"
+
+
+    ```
+    .about-benefits-container {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.about .benefits {
+  border: 20rem;
+  padding-left: 50px;
+  width: 100%;
+  margin: 20rem auto;
+}
+
+.benefits h3 {
+  margin-left: 80px;
+  text-decoration: underline;
+}
+
+.benefits p {
+  margin-left: 0px;
+  text-decoration: underline;
+}
+
+.benefits ul {
+  padding-inline-start: 5rem;
+}
+
+.benefits li {
+  display: list-item;
+  list-style-type: none;
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: right;
+}
+
+
 
 All code was formatted with Prettier to remove spaces and format code
 All code passed without errors in W3 Validator and Jigsaw

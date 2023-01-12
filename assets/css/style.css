@@ -104,7 +104,6 @@ h2 {
   padding-left: 50px;
   width: 100%;
   margin: 20rem auto;
-  flex-shrink: 2;
 }
 
 .benefits h3 {
@@ -127,7 +126,6 @@ h2 {
   color: whitesmoke;
   padding-left: 5px;
   padding-right: 5px;
-
   justify-content: right;
 }
 
