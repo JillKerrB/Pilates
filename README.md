@@ -192,9 +192,8 @@ The navigation menu is formatted in the .nav-menu section. Under the a section, 
 
 ```
 .nav-menu {
-  color: whitesmoke;
   letter-spacing: 1px;
-  font-weight: 300;
+  display: inline-flex;
   justify-content: right;
 }
 

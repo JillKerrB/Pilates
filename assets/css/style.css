@@ -36,9 +36,7 @@ h3 {
 }
 
 .nav-menu {
-  color: whitesmoke;
   letter-spacing: 1px;
-  font-weight: 300;
   display: inline-flex;
   justify-content: right;
 }
