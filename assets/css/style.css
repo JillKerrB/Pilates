@@ -177,12 +177,12 @@ h2 {
   max-width: 100%;
   padding-bottom: 70px;
 }
-
+/*styling to make textarea field on form wider on contact page*/
 .form textarea {
   max-width: 80%;
 }
 
-/*code to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+/*code to style footer and footer icons, and to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 #footer {
   background: black;
   padding: 20px;
@@ -203,19 +203,19 @@ h2 {
 #footer li {
   margin: 0 2rem;
 }
-
+/*Create flex container for footer*/
 .footer-container {
   display: flex;
   width: 100%;
 }
-
+/*format position of icons on footer*/
 .footer-container ul {
   display: flex;
   width: 100%;
   list-style: none;
   justify-content: center;
 }
-
+/*style footer elements*/
 .facebook,
 .insta,
 .twitter,
@@ -225,19 +225,19 @@ h2 {
   font-weight: 300;
   font-family: "playfair display", serif;
 }
-
+/*styling table on timetable page*/
 table {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
   background-color: gray;
 }
-
+/*styling paragraph text under timetable*/
 #more-info p {
     text-align: center;
     background-color: rgb(169, 96, 7);
 }
-
+/*adjust size of table on mobile device*/
 @media only screen and (max-width: 560px) {
   #table {
     width: 90%;
@@ -246,8 +246,7 @@ table {
   }
 }
 
-/*table border code from W3Schools - https://www.w3schools.com/html/html_table_borders.asp*/
-
+/*Add table border - table border code from W3Schools - https://www.w3schools.com/html/html_table_borders.asp*/
 table,
 th,
 td {
