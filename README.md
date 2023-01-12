@@ -90,7 +90,7 @@ As a future enhancement, i would like to introduce the ability for sudents to lo
 ## Testing
 
 * Header
-The header was created as the flex container "logo-nav-container", and then split into the logo and navigation menu horizontally,using classes "logo" and "nav-menu". Anchor links were added inside the logo and nav-menu classes to create the logo link, and the navigation links". An area-link was added to each navigation link to provide assistance to screen readers. 
+The header was created as the flex container "logo-nav-container", and then split into the logo and navigation menu horizontally,using classes "logo" and "nav-menu". Anchor links were added inside the logo and nav-menu classes to create the logo link, and the navigation links". 
 
 - HTML Code
 
@@ -139,6 +139,89 @@ The header logo and navigation links are reponsive as the font size scales down 
     font-size: 2vw;
   }
   ```
+
+* Logo 
+The logo was crated as a link using a href
+
+- HTML code
+
+```
+<div class="logo">
+          <a href="index.html">
+```
+
+- CSS code
+The following code was added to style the logo. Font colour was inherited from a styling. 
+
+```
+.logo {
+  letter-spacing: 4px;
+  font-family: "playfair display", serif;
+  flex-grow: 1;
+  text-transform: uppercase;
+}
+```
+
+- Responsive design
+The following resizes the logo text when viewed on a mobile device
+
+```
+ .logo {
+    font-size: 3vw;
+  }
+  ```
+
+* Navigation menu
+Nav links are added for symantics, to allow screen reads to identify that these links are for the sites main navigation. area-links are added to each navigation link to provide additional assistance to screen readers. The menu is made up of an unordered list containing 3 list items, one for each page. 
+
+- HTML code
+
+```
+<div class="nav-menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html" class="active-link" aria-label="Link to home page">Home</a></li>
+              <li><a href="/timetable.html" aria-label="Link to timetable page">Home>Class Timetable</a></li>
+              <li><a href="/contact.html" aria-label="Link to contact form page">Home>Contact</a></li>
+            </ul>
+          </nav>
+```
+- CSS code
+
+The navigation menu is formatted in the .nav-menu section. Under the a section, the default like underline is removed, and under the a:hover section, the background colour is added for when an end user hovers over a link. The .active-link adds an underline to the navigation menu page that the users is currently on. The code for the .active-link was taken from the Love Running project.
+
+```
+.nav-menu {
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-weight: 300;
+  justify-content: right;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  background-color: rgb(169, 96, 7);
+}
+
+/*active link code taken from love running project*/
+
+.active-link {
+  border-bottom: 1px solid whitesmoke;
+}
+```
+- Responsive design
+The font size will adapt for mobile devices.
+
+```
+ .nav-menu {
+    font-size: 2vw;
+  }
+  ```
+
 
 * Footer
 
@@ -314,7 +397,7 @@ An flex container called "about-benefits-container" is used to contain the 2 sec
     First the container is styled in ",about-benefits-container" as flex to allow the sections to stack horizontally. The container is also positioned and width added. 
     Styles that are common to both the about section and the benefits section are added to ",about .benefits, auch as the padding and borders.
     Specific styling is added to the benefits section header with .benefits h3, to move the heading for this section further to the right. 
-    Then styling is added specifically to 
+    Then styling is added specifically to the benefits ul to remove to default padding with padding-inline-start: 5rem; and the list items are styled for position and to remove the bullet points. 
 
 
     ```
