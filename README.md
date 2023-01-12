@@ -612,14 +612,14 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. URL can be found here - https://jillkerrb.github.io/Pilates/
 
+## Credits
 
+For help with some coding such as with the footer, i referenced the Love Running project from the Code institute
+I also referenced W3Schools for information such as how to create tables https://www.w3schools.com/html/html_tables.asp
+To get help with hero imaging width sizing, went to https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&index=1
+I would also like to thank my Mentor for support during this project.
 
-
-
-
-
-
-
-
-To get help with hero imaging width sizing, went to https://www.w3schools.com/howto/howto_css_hero_image.asp
+## Media
+The photos used on the home and sign up page are from Pexels open source.
+The icons used in the footer were take from Font Awesome. 
 
