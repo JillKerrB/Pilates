@@ -109,7 +109,7 @@ h2 {
 }
 
 .benefits h3 {
-  margin-left: 0px;
+  margin-left: 80px;
   text-decoration: underline;
 }
 
@@ -151,6 +151,10 @@ h2 {
     padding-left: 10px;
     font-size: 2vh;
   }
+
+.benefits h3 {
+  margin-left: 0px;
+}
 
   form {
     padding-left: 70px;
