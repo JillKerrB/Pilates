@@ -23,7 +23,6 @@ h3 {
 .logo-nav-container {
   display: flex;
   width: 100%;
-  flex-grow: 1;
 }
 
 .logo {

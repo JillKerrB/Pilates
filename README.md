@@ -57,17 +57,31 @@ The hero image shows a young woman doing Pilates to catch the users attention. T
 
 
 * About and Benefits Section
+
 The about and benefits section are part of one Flexbox container. The about section contains is a paragraph of text that provides the user with some additional informaiton about Janes Pilates Studio. The benefits section provides a list of benefits the user can get from practicing Pilates. These sections are responsive, when viewed on a laptop device they will appear horizontally, and when viewed on a mobile device will stack vertically on top of each other. 
+
+Laptop view:
+
+![Alt text](assets/images/ab-laptop-view.jpg)
+
+Mobile view:
+
+![Alt text](assets/images/ab-mobile-view.jpg)
 
 ### Featured on the Timetable page
 
 * Timetable
 The timetable page provides the user with a table view of the classes and times available at Janes Pilates studio. The table is reponsive and allows users to scroll left and right when viewing on a mobile device. 
 
+![Alt text](assets/images/table.jpg)
+
 ### Featured on the Contact page
 
 * Form
+
 A  responsive contact form allows the user to provide their contact information and ask a question from Janes Pilates studio, such as, how do they book a private class. 
+
+![Alt text](assets/images/form.jpg)
 
 
 ## Features Left to Implement
@@ -76,7 +90,39 @@ As a future enhancement, i would like to introduce the ability for sudents to lo
 ## Testing
 
 * Header
-The header was split into sections using flexbox. I tried to acheieve the same result using the float attribute, but i had issues with the horizonal alignment of the navigation menu links. 
+The header was created as the flex container "logo-nav-container", and then split into the logo and navigation menu horizontally,using classes "logo" and "nav-menu". Anchor links were added inside the logo and nav-menu classes to create the logo link, and the navigation links"
+
+- HTML Code
+
+  <!--<header>
+      <div class="logo-nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <h1>Jane's Pilates Studio</h1>
+          </a>
+        </div>
+
+        <div class="nav-menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html" class="active-link">Home</a></li>
+              <li><a href="/timetable.html">Class Timetable</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>-->
+
+- CSS Code
+
+The container was set as flex to enable elements to sit side by side.
+
+<!--.logo-nav-container {
+  display: flex;
+  width: 100%;
+}-->
+
 
 All code was formatted with Prettier to remove spaces and format code
 All code passed without errors in W3 Validator and Jigsaw
