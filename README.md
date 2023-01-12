@@ -90,11 +90,11 @@ As a future enhancement, i would like to introduce the ability for sudents to lo
 ## Testing
 
 * Header
-The header was created as the flex container "logo-nav-container", and then split into the logo and navigation menu horizontally,using classes "logo" and "nav-menu". Anchor links were added inside the logo and nav-menu classes to create the logo link, and the navigation links"
+The header was created as the flex container "logo-nav-container", and then split into the logo and navigation menu horizontally,using classes "logo" and "nav-menu". Anchor links were added inside the logo and nav-menu classes to create the logo link, and the navigation links". An area-link was added to each navigation link to provide assistance to screen readers. 
 
 - HTML Code
 
-  <!--<header>
+  <!-- <header>
       <div class="logo-nav-container">
         <div class="logo">
           <a href="index.html">
@@ -105,9 +105,9 @@ The header was created as the flex container "logo-nav-container", and then spli
         <div class="nav-menu">
           <nav>
             <ul>
-              <li><a href="/index.html" class="active-link">Home</a></li>
-              <li><a href="/timetable.html">Class Timetable</a></li>
-              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="/index.html" class="active-link" aria-label="Link to home page">Home</a></li>
+              <li><a href="/timetable.html" aria-label="Link to timetable page">Home>Class Timetable</a></li>
+              <li><a href="/contact.html" aria-label="Link to contact form page">Home>Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -123,6 +123,57 @@ The container was set as flex to enable elements to sit side by side.
   width: 100%;
 }-->
 
+- Responsive design
+
+The header logo and navigation links are reponsive as the font size scales down on mobile devices:
+
+ <!--.logo {
+    font-size: 3vw;
+  }
+
+  .nav-menu {
+    font-size: 2vw;
+  }-->
+
+
+
+* Hero image and text
+
+The hero image was added using a div with an id called "hero-image" in the HTML which was linked to the image destination in the CSS. Text was added on top of the hero image to help users identify what the site is about.
+
+HTML code 
+
+<!--<div id="hero-image">
+      <p>
+        An instructor led pilates studio<br>
+        in the heart of Mayo. <br>
+        We caters for all ages.<br>
+        View our timetable to find a class<br>
+        or contact us to schedule a private class.
+      </p>
+    </div>-->
+
+    CSS code:
+
+The no repeat ensured that the image deos  not repeat if the screen size is larger than the image. The width and height of the image is set and centered on the page. The opacity is set to make the image and text contrast slightly better.
+
+<!--#hero-image {
+  background: url("../images/hero-image.jpg") no-repeat center center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  opacity: 0.9;
+}-->
+
+Responsive design: 
+
+The text on the image is coded to resize on a smaller device and padding is set.
+
+ <!--#hero-image p {
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 2vh;
+  }-->
 
 All code was formatted with Prettier to remove spaces and format code
 All code passed without errors in W3 Validator and Jigsaw
