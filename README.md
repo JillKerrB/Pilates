@@ -1,6 +1,6 @@
 # Janes Pilates Studio
 Welcome to the website for [Janes Pilates Studio](https://jillkerrb.github.io/Pilates/)
-<p>In this website, i decided to bring my own idea to life. This website a real need as my friend Jane is a qualified nurse who is changing career, and needs a website to attract and engage potential studenets. </p>
+<p>In this website, i decided to create project idea 0 and bring my own idea to life. This website a real need as my friend Jane is a qualified nurse who is changing career, and needs a website to attract and engage potential studenets. </p>
 <p>The benefit of this website to the site owner is to attract new, intermediate and advanced Pilates students to attend Pilates clases at Janes Pilates studio. </p>
 
 <p>The benefit to the external user is to find a Pilates studio where they can view a list of classes and times, and contact the studio if they require information on a private class.</p>
@@ -615,8 +615,10 @@ Once the master branch has been selected, the page will be automatically refresh
 ## Credits
 
 For help with some coding such as with the footer, i referenced the Love Running project from the Code institute
-I also referenced W3Schools for information such as how to create tables https://www.w3schools.com/html/html_tables.asp
+I also referenced W3Schools for information such as how to create tables https://www.w3schools.com/html/html_tables.asp, 
+Table border code from W3Schools - https://www.w3schools.com/html/html_table_borders.asp
 To get help with hero imaging width sizing, went to https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG&index=1
+Code to make footer sticky taken from https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 I would also like to thank my Mentor for support during this project.
 
 ## Media
