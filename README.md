@@ -312,7 +312,9 @@ An flex container called "about-benefits-container" is used to contain the 2 sec
     - CSS code
 
     First the container is styled in ",about-benefits-container" as flex to allow the sections to stack horizontally. The container is also positioned and width added. 
-    Then styles that are common to both the about section and the benefits section are added to ",about .benefits"
+    Styles that are common to both the about section and the benefits section are added to ",about .benefits, auch as the padding and borders.
+    Specific styling is added to the benefits section header with .benefits h3, to move the heading for this section further to the right. 
+    Then styling is added specifically to 
 
 
     ```
@@ -332,11 +334,6 @@ An flex container called "about-benefits-container" is used to contain the 2 sec
 
 .benefits h3 {
   margin-left: 80px;
-  text-decoration: underline;
-}
-
-.benefits p {
-  margin-left: 0px;
   text-decoration: underline;
 }
 
