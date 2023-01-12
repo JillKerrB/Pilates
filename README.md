@@ -303,6 +303,21 @@ Set position and colours with the #footer and removed additional space at the si
   border: 0;
   padding: 0;
 }
+#footer li {
+  margin: 0 2rem;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+}
+
+.footer-container ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+}
 ```
 
 
@@ -390,15 +405,13 @@ An flex container called "about-benefits-container" is used to contain the 2 sec
         </div>
       </section>
     </div>
-    ```
-    - CSS code
+```
+- CSS code
 
     First the container is styled in ",about-benefits-container" as flex to allow the sections to stack horizontally. The container is also positioned and width added. 
     Styles that are common to both the about section and the benefits section are added to ",about .benefits, auch as the padding and borders.
     Specific styling is added to the benefits section header with .benefits h3, to move the heading for this section further to the right. 
     Then styling is added specifically to the benefits ul to remove to default padding with padding-inline-start: 5rem; and the list items are styled for position and to remove the bullet points. 
-
-
     ```
     .about-benefits-container {
   display: flex;
@@ -426,21 +439,178 @@ An flex container called "about-benefits-container" is used to contain the 2 sec
 .benefits li {
   display: list-item;
   list-style-type: none;
-  color: whitesmoke;
   padding-left: 5px;
   padding-right: 5px;
   justify-content: right;
 }
+``
 
+* Table 
+A table structure was used for the class timetable. The following link on W3Schools was referenced in order to create the table - https://www.w3schools.com/html/html_tables.asp
 
+- HTML
+```
+<div id="table">
+      <table>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+        <tr>
+          <td>9am - 10am</td>
+          <td>Intermediate</td>
+          <td>Advanced</td>
+          <td>Pregnancy Pilates</td>
+          <td>Kis Pilates</td>
+          <td>Advanced</td>
+          <td>Beginners</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>10am - 11am</td>
+          <td>Kids Pilates</td>
+          <td>Pregnancy Pilates</td>
+          <td>Intermediate</td>
+          <td>Beginners</td>
+          <td>Advanced</td>
+          <td>Intermediate</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>11am - 12am</td>
+          <td>Advanced</td>
+          <td>Beginners</td>
+          <td>Intermediate</td>
+          <td>Beginners</td>
+          <td>Advanced</td>
+          <td>Intermediate</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>2pm - 3pm</td>
+          <td>Intermediate</td>
+          <td>Beginners</td>
+          <td>Advanced</td>
+          <td>Beginners</td>
+          <td>Advanced</td>
+          <td>Pregnance Pilates</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>3pm - 4pm</td>
+          <td>Intermediate</td>
+          <td>Advanced</td>
+          <td>Pregnancy Pilates</td>
+          <td>intermediate</td>
+          <td>Kis Pilates</td>
+          <td>Beginners</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>4pm - 5pm</td>
+          <td>Kids Pilates</td>
+          <td>Beginners</td>
+          <td>Advanced</td>
+          <td>intermediate</td>
+          <td>Kis Pilates</td>
+          <td>Pregnancy Pilates</td>
+          <td>Closed</td>
+        </tr>
+      </table>
+    </div>
+```
+- CSS code
+Code us to position and colour table.
 
-All code was formatted with Prettier to remove spaces and format code
+```
+table {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+```
+- Responsive design
+Table distorts at a different width than other elements so created seperate media query for table. The overflow-x attribute allows the user to scroll left and right on the table on a mobile device. 
+
+@media only screen and (max-width: 560px) {
+  #table {
+    width: 90%;
+    overflow-x: auto;
+    margin: 1rem auto;
+  }
+}
+
+* Contact form
+The contact form uses a form symantic element and is enclosed in a field set to keep all input fields together. There are several input fields with most having a required attribute so the user cannot leave them blank. The email input is used for the email field, so that an email with an at sign must be used. A textarea field is added for the user to add their question. A label is linked to each input field, to help screenreaders identify the fields. A form action link to code institute is used to post users information to a database when they click on the submite button. A reset button is also added to clear the form. 
+
+- HTML
+
+<form action="https://formdump.codeinstitute.net" method="POST">
+      <div class="form">
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="fname">First Name:</label><br>
+          <input type="text" id="fname" name="fname" required><br>
+          <label for="lname">Last Name:</label><br>
+          <input type="text" id="lname" name="lname" required><br>
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="phone">Phone Number:</label><br>
+          <input type="text" id="phone" name="phone"><br>
+          <label for="textarea">Your Question:</label><br>
+          <textarea
+            id="textarea"
+            placeholder="Please enter your question here:"
+            rows="10"
+            cols="55"
+            name="question"
+            required
+          ></textarea
+          ><br>
+          <label for="submit"></label><br>
+          <input type="submit" id="submit" name="submit"><br>
+          <label for="reset"></label><br>
+          <input type="reset" id="reset" name="reset">
+        </fieldset>
+      </div>
+    </form>
+
+- Responsive design
+CSS is added to format the padding to the left of the form when viewed on a mobile device
+
+```
+ form {
+    padding-left: 70px;
+  }
+```
+## Validator Testing
+
 All code passed without errors in W3 Validator and Jigsaw
-Used lighthouse in Developer tools to check accessibility and best practice and got a score of 100% for both accessibility and best practive. 
+Used lighthouse in Developer tools to check accessibility and best practice and got a score of 100% for both accessibility and best practice. 
 
 Responsiveness was tested using developer tools and selecting replicating different devices such as mobile devices and tablets.
-one problem i could not overcome in my project was the ability to adjust the transparancy of the hero image using the opacity attribute without adjusting the transparancy of the text on top of the hero image. I would like to have only adjusted the hero imaage so as to have more contract between the background impact and the text. 
 
+## Unfixed Bugs
+
+one problem i could not overcome in my project was the ability to adjust the transparancy of the hero image using the opacity attribute without adjusting the transparancy of the text on top of the hero image. I would like to have only adjusted the hero imaage so as to have more contrast between the background impact and the text. 
+
+## Deployment 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1) In the GitHub repository, navigate to the Settings tab
+2) From the source section drop-down menu, select the Main Branch
+3) Once the Main branch has been selected click save and refesh the page
+4) The project will then be deployed and the URL will be provided. The URL can be found here - The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. URL can be found here - https://jillkerrb.github.io/Pilates/
 
 
 
