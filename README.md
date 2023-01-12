@@ -5,38 +5,59 @@ Welcome to the website for [Janes Pilates Studio](https://jillkerrb.github.io/Pi
 
 <p>The benefit to the external user is to find a Pilates studio where they can view a list of classes and times, and contact the studio if they require information on a private class.</p>
 
-<img scr="../images/devices-screenshot.jpg">
+![Alt text](assets/images/devices.jpg)
+
 
 ## Features
 
 ### Featured on all 3 pages - Home, Timetable and Contact
 
 * Header
-The header element was added to give symantic clarity as well as to house the logo text and navigation menu. 
-The header is consistent across all 3 pages to allow for consistency and ease of navigation for the user. 
 
-* Logo 
-The responsive logo text provides the name of the website in a identifiable location for the end user and is a clickable link that brings the user back to the homepage from any of the other pages. 
+The header element was added to give symantic clarity as well as to house the logo text and navigation menu. 
+The header is consistent across all 3 pages to allow for consistency and ease of navigation for the user. The screenshot below shows the header section highlited in red, with the logo (highlighted in green) and the navigation menu (highlighted in yellow) contained within the header.
+
+![Alt text](assets/images/header.jpg)
+
+* Logo
+
+The responsive logo text provides the name of the website in a identifiable location for the end user and is a clickable link that brings the user back to the homepage from any of the other pages. The logo highlights in dark orange when hovered to allow external users to identify that they are on the main page of Janes Pilates Studio, and to allow them to refresh the page without relying on the browser refresh. The screenshots below show the logo when not hovered over (dark grey) and when hovered over (dark orange).
+
+Without hover:
+
+![Alt text](assets/images/logo-before.jpg)
+
+With hover:
+
+![Alt text](assets/images/logo-after.jpg)
 
 *  Navigation Menu
 
 The responsice navigation menu is identical on all 3 pages - Home, Timetable and Contact. 
 The navigation menu consists of an unordered list. Each list item contains an active link to allow users to identify what page they are currently on. A hover function has also been used to allow users to identify what page they are about to click on when they hover over a page link.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser back button. 
+
+Below screenshot shows the current page underlined as the page we are currently on, and shows the user hovering over the home page manu item:
+
+![Alt text](assets/images/nav-menu.jpg)
 
 * Footer
-The footer is consistent across all 3 pages and is sticky so will not obscure the users view. The footer contains links to Janes Pilates Studio social media sites, so they can easily follow on social media. Each social media link will open in a new tab. 
+
+The footer is consistent across all 3 pages and is sticky so will not obscure the users view. The footer contains links to Janes Pilates Studio social media sites - Facebook, Twitter, Instagram and Youtube, so users can easily follow Janes Pilates Studio on social media. Each social media link will open in a new tab. 
+
+![Alt text](assets/images/footer.jpg)
 
 ### Featured on the Home page
 
 * Hero Image
+
 The hero image shows a young woman doing Pilates to catch the users attention. Text is placed over other image to inform the user of the purpose of the website. Both the image and text are reponsive to device size.
 
-* About Section
-The responsicve about section is a paragraph of text that provides the user with some additional informaiton about Janes Pilates Studio.
+![Alt text](assets/images/hero-with-text.jpg)
 
-* Benefits Section
-Provides a responsive list of benefits the user can get from practicing Pilates.
+
+* About and Benefits Section
+The about and benefits section are part of one Flexbox container. The about section contains is a paragraph of text that provides the user with some additional informaiton about Janes Pilates Studio. The benefits section provides a list of benefits the user can get from practicing Pilates. These sections are responsive, when viewed on a laptop device they will appear horizontally, and when viewed on a mobile device will stack vertically on top of each other. 
 
 ### Featured on the Timetable page
 
